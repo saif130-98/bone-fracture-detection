@@ -12,27 +12,6 @@ Robust Data Pipeline: Implements dynamic data augmentation (rotation, shifting, 
 
 Interactive UI: Includes a custom Streamlit web application (app.py) for drag-and-drop inference, featuring confidence progress bars and medical disclaimers.
 
-📊 Model Performance
-The model was evaluated on a perfectly balanced test set of 2,792 images (1,396 Fractured, 1,396 Non-Fractured).
-
-Accuracy: 99%
-
-Precision (Fractured): 0.99
-
-Recall (Fractured): 1.00
-
-F1-Score: 0.99
-
-Confusion Matrix Breakdown:
-
-True Positives (Correctly identified fractures): 1,390
-
-True Negatives (Correctly identified healthy bones): 1,380
-
-False Positives (False alarms): 16
-
-False Negatives (Missed fractures): 6
-
 🛠️ Technical Architecture
 Base Model: Pre-trained MobileNetV2 (ImageNet weights)
 
